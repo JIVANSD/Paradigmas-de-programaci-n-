@@ -1,30 +1,30 @@
 #  el archivo basededatos.py : trae el objeto Basededatos
 #=========================================================
-from aplicacion.repositorio.basededatos import BaseDeDatos
+from basededatos import BaseDeDatos
 
 #============================================================
 #  Del directorio aplicacion, el subdirectorio repositorio,
 #  el archivo s3.py : trae el objeto S3
 #============================================================
-from aplicacion.repositorio.s3 import S3
+from s3 import S3
 
 #====================================================================
 #  Del directorio aplicacion, el subdirectorio repositorio,
 #  el archivo sistemadearchivos.py : trae el objeto SistemaDeArchivos
 #====================================================================
-from aplicacion.repositorio.sistemadearchivos import SistemaDeArchivos
+from sistemadearchivos import SistemaDeArchivos
 
 #=========================================================
 #  Del directorio aplicacion, el subdirectorio modelos,
 #  el archivo usuario.py : trae el objeto Usuario
 #=========================================================
-from aplicacion.modelos.usuario import Usuario
+from usuario import Usuario
 
 #===============================================================================
 #  Del directorio aplicacion, el subdirectorio negocios,
 #  el archivo manejodeinscripciones.py : trae el objeto ManejoDeInscripciones
 #===============================================================================
-from aplicacion.negocios.manejodeinscripciones import ManejoDeInscripciones
+from manejodeinscripciones import ManejoDeInscripciones
 
 #===========================
 #   Crear el objeto Usuario
